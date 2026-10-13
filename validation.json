@@ -1,0 +1,83 @@
+{
+  "repository": "Tencent/WeKnora",
+  "source_base": "92382208674ae1b9a2dd62ac0fa98d67ce348bfe",
+  "tested_source_head": "040a6316f9814d1b4676dcf17058f6a7d98b5a74",
+  "browser": "Chrome155.0.8059.40",
+  "viewport": {
+    "width": 1200,
+    "height": 900
+  },
+  "source_hashes": {
+    "frontend/src/utils/finalAnswer.ts": "e187d4511b12a704a6962437817b39db26cf8a7e119c57a9f119b31ab1590dc8",
+    "frontend/src/utils/finalAnswer.test.ts": "ffb08bc8042da0a55bbfe5a951c8b35c8c888ef1cdeb110117a0512b227cc062",
+    "frontend/src/views/chat/components/AgentStreamDisplay.vue": "5bc7c0d54756e1ab9154e0b1a7d23ae4b7c0b67a7f309785c869cb6c76fe3167",
+    "frontend/package-lock.json": "913eba628973c20bed81588e4a2a297b707ee45491af9c2f51d0915bc92d7223",
+    "frontend/vite.config.ts": "100e49aac3811615b7d8b3c97626a04f1ba8f8a4d576a17ae9dbc51efad39040"
+  },
+  "scenarios": [
+    {
+      "mode": "base",
+      "scenario": "distinct",
+      "card_count": 0,
+      "correct": true,
+      "errors": [],
+      "api_requests": []
+    },
+    {
+      "mode": "base",
+      "scenario": "title",
+      "card_count": 0,
+      "correct": true,
+      "errors": [],
+      "api_requests": []
+    },
+    {
+      "mode": "base",
+      "scenario": "duplicate",
+      "card_count": 0,
+      "correct": true,
+      "errors": [],
+      "api_requests": []
+    },
+    {
+      "mode": "head",
+      "scenario": "distinct",
+      "card_count": 1,
+      "correct": true,
+      "errors": [],
+      "api_requests": []
+    },
+    {
+      "mode": "head",
+      "scenario": "title",
+      "card_count": 1,
+      "correct": true,
+      "errors": [],
+      "api_requests": []
+    },
+    {
+      "mode": "head",
+      "scenario": "duplicate",
+      "card_count": 0,
+      "correct": true,
+      "errors": [],
+      "api_requests": []
+    }
+  ],
+  "screenshots": {
+    "base-title.png": "f302c507e00d3089dc1e1035c18dc611e499aacc796aad7c062dbf8d57f67d3c",
+    "head-title.png": "7b55b700855d2274236f3301171c091ef3d99bc7446ea271d7e13f406083ec87",
+    "base-distinct.png": "f302c507e00d3089dc1e1035c18dc611e499aacc796aad7c062dbf8d57f67d3c",
+    "head-duplicate.png": "f302c507e00d3089dc1e1035c18dc611e499aacc796aad7c062dbf8d57f67d3c",
+    "head-distinct.png": "8c76ca2807115066ae350eec4c593e0dae2f78f0f727b72ba5ad07aa9130006e",
+    "base-duplicate.png": "f302c507e00d3089dc1e1035c18dc611e499aacc796aad7c062dbf8d57f67d3c"
+  },
+  "frontend_tests": {
+    "tests": 1549,
+    "pass": 1548,
+    "fail": 0,
+    "skipped": 1
+  },
+  "typecheck": "vue-tsc --build --force PASS",
+  "scope": "Synthetic mounted actual AgentStreamDisplay.vue, real Vue/Pinia/router/i18n/TDesign. No live account/backend or production build. Raw screenshots, no image editing."
+}
